@@ -1,0 +1,17 @@
+<div class="container d-flex h-100 justify-content-center align-items-center mt-3">
+  <div>
+    <h1 class ="fs-3">Stupid Coaching</h1>
+    <br>
+    <div class ="border-start border-primary ps-3 border-3">
+      <p><strong><%= @question %></strong></p>
+      <p>- You</p>
+    </div>
+    <br>
+    <div class ="border-start border-primary ps-3 border-3">
+      <p><strong><%= @answer %></strong></p>
+      <p>- Your coach</p>
+    </div>
+    <br>
+      <%=link_to "Ask a new question to your stupid coach !", ask_path, :class => "btn btn-primary"  %>
+  </div>
+</div>
